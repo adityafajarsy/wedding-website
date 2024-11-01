@@ -503,3 +503,32 @@ footer li {
         top: 31px;
     }
 }
+/* small mobile phone */
+
+@media (max-width: 400px) {
+    
+    html {
+        font-size: 50%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 38px !important;
+        margin: 5px !important;
+    }
+    .timeline li .timeline-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .timeline li .timeline-panel {
+        width: 70%;
+        transform: translateX(-10px);
+    }
+
+    .timeline li .timeline-panel::before {
+        top: 30px;
+    }
+    .timeline li .timeline-panel::after {
+        top: 31px;
+    }
+}
